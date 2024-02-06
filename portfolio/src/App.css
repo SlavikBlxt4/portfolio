@@ -50,6 +50,8 @@ body {
     padding: 36px;
     font-family: 'Rubik', sans-serif;
     font-size: 14px;
+    opacity: 0.5; 
+    font-weight: 450;
 }
 
 .name{
@@ -60,6 +62,7 @@ body {
 #contact-link{
     margin-left: 65px;
     background-color: aquamarine;
+    opacity: 1;
 }
 
 @media screen and (max-width: 980px) {
@@ -69,56 +72,58 @@ body {
     
 }
 
-.footer{
-    background-color: #333;
-    /*how to display all of the elements horizontally*/
+.footer {
+    background-color: #101010;
     padding: 10px;
     color: #fff;
     margin-top: 20px;
     font-family: 'Rubik', sans-serif;
-    font-size: 14px;
+    font-size: 12px; /* Reduced font size */
+  }
 
-}
-
-.message{
-    font-size: 24px;
-    background-color: black;
+.message {
+    font-size: 18px; /* Reduced font size */
     text-align: center;
     font-family: 'Syne', sans-serif;
     font-weight: 700; /* Bold weight for Syne */
-    color: #FF9142
+    color: #FF9142;
+    margin-bottom: 10px; /* Reduced margin */
 }
-
-.mail{
-    background-color: black;
+  
+.mail {
     text-align: center;
-}
-.mail a{
+    margin-left: 150px;
+  }
+  
+.mail a {
     color: white;
-    font-size: 64px;
+    font-size: 38px; /* Reduced font size */
     font-family: 'Syne', sans-serif;
     font-weight: 700;
-}
+  }
 
-.flex-container{
+.flex-container {
     display: flex;
     justify-content: space-between;
-    background-color: #653d20;
-}
+    /* How to align all the elements in the flex container vertically */
+    align-items: center;
+  }
 
-.social{
-    background-color: #FF9142;
-}
+.social {
+    margin-right: 150px; /* Adjusted margin */
+    align-items: center; /* How to align all the elements in the flex container vertically */
+    display: flex;
+  }
 
 .name-footer{
-    margin-left: 159px;
+    margin-left: 100px; /* Adjusted margin */
     font-size: 64px;
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
 }
 
+
 .phone-number{
-    background-color: #31241a;
     margin-left: auto;
     padding: 10px;
     display: flex;
@@ -140,6 +145,33 @@ li{
 
 .social-media ul{
     display: flex;
-
+}
+.social-media li{
+    margin-right: 9.65px;
 }
 
+.social-media img{
+    width: 50px;
+    height: 50px;
+}
+
+.social-media{
+    align-items: center;
+}
+
+.copyright ul li{
+    text-align: center;
+}
+
+.copyright ul li p{
+    text-decoration: none;
+    color: white;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.line-separator {
+    height: 2px;
+    background-color: #949494;
+}
