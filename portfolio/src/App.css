@@ -57,5 +57,16 @@ body {
 
 #contact-link{
     margin-left: 65px;
+    background-color: aquamarine;
 }
 
+@media screen and (max-width: 980px) {
+    .menu-list{
+        display: none;
+    }
+    
+}
+
+.footer{
+    background-color: #333;
+}

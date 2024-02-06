@@ -1,22 +1,13 @@
 import React from 'react';
 import './App.css';
+import Header from './componentes/header';
+import Footer from './componentes/footer';
 
 
 const Portfolio = () => {
   return (
-    <div>
-      <div className="header">
-        <div className="name"><h1>SLAVIK</h1></div>
-        <div className="menu">
-          <ul className="menu-list">
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#about">ABOUT ME</a></li>
-            <li><a href="#works">MY WORKS</a></li>
-            <li><a href="#contact" id="contact-link">CONTACT</a></li>
-          </ul>
-        </div>        
-      </div>
-
+    <div className="App">
+      <Header />
       <div className="content">
         <h2>About me</h2>
         <p>Information.</p>
@@ -33,7 +24,12 @@ const Portfolio = () => {
         <div className="skill">Java</div>
       </div>
       <script src='js/script.js'></script>
+      <div className='footer'>
+        <Footer />
+      </div>
     </div>
+    
+    
   );
 };
 
