@@ -35,7 +35,7 @@ const Portfolio = () => {
         <Routes>
           <Route path="/start" element={<Start />} />
           <Route path="/aboutme" element={<AboutMe />} />
-          <Route path="/contact" element={<AboutMe />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/home" element={<Main />} />
           <Route path="/projects" element={<ProjectDetail />} />
         </Routes>
