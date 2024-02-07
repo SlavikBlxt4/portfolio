@@ -17,7 +17,7 @@ const Start = () => {
         clearInterval(interval);
         setShowButton(true); // Show the button after typewriting effect
       }
-    }, 100); // Adjust the interval for typing speed
+    }, 75); // Adjust the interval for typing speed
     return () => clearInterval(interval);
   }, [fullText]);
 

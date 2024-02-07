@@ -176,7 +176,7 @@ li{
     margin-bottom: 20px;
     align-items: center;
 }
-.start button{
+.start button {
     font-family: 'Rubik', sans-serif;
     font-size: 13px;
     font-weight: 700;
@@ -184,11 +184,20 @@ li{
     padding: 15px;
     padding-left: 36px;
     padding-right: 36px;
-    border: 2px solid #D8D8D8;
-    background-color: #FF9142;
+    border: none; 
+    background-color: #FF9142; /* Set the initial button color */
+    background-size: 200% 200%;
+    background-position: top;
     color: white;
+    transition: background 0.5s ease, color 0.5s ease;
     margin-top: 20px;
-}
+  }
+  
+.start button:hover {
+    background-color: white; /* Fills the color from top to bottom on hover */
+    color: #FF9142; /* Invert the text color on hover */
+    transition: background 0.5s ease, color 0.5s ease;
+  }
 
 @media screen and (max-width: 578px) {
     .menu-list{
@@ -226,9 +235,9 @@ button{
 
 .typing-cursor {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: auto;
   width: 5px; /* Adjust the width of the cursor */
-  height: 70px; /* Adjust the height of the cursor */
+  height: 60px; /* Adjust the height of the cursor */
   background-color: rgb(255, 255, 255); /* Adjust the color of the cursor */
   animation: blink-caret 0.75s infinite; /* Define the blinking animation */
 }
