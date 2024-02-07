@@ -19,7 +19,29 @@ body {
 }
 .content {
     margin: 20px;
+    color: white;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 60px;
 }
+
+.content h2{
+    margin-bottom: 90px;
+    font-family: 'Syne', sans-serif;
+    font-size: 56px;
+}
+
+.content p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: left;
+    width: 100%;
+    opacity: 0.5;
+}
+
 .skills {
     display: flex;
     flex-wrap: wrap;
@@ -188,13 +210,14 @@ li{
     background-color: #FF9142; /* Set the initial button color */
     background-size: 200% 200%;
     background-position: top;
-    color: white;
-    transition: background 0.5s ease, color 0.5s ease;
+    color: rgb(0, 0, 0);
     margin-top: 20px;
+    transition: background 0.5s ease, color 0.5s ease;
+    
   }
   
 .start button:hover {
-    background-color: white; /* Fills the color from top to bottom on hover */
+    background-color: rgb(0, 0, 0); /* Fills the color from top to bottom on hover */
     color: #FF9142; /* Invert the text color on hover */
     transition: background 0.5s ease, color 0.5s ease;
   }
@@ -248,3 +271,59 @@ button{
 }
 
 /* Other CSS styles */
+
+#contact-link:hover{
+    background-color: white;
+    color: #030304;
+    transition: background 0.5s ease, color 0.5s ease;
+}
+
+.aboutme-button {
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 100px;
+    padding: 15px;
+    padding-left: 36px;
+    padding-right: 36px;
+    border: none; 
+    background-color: #FF9142; /* Set the initial button color */
+    background-size: 200% 200%;
+    background-position: top;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    transition: background 0.5s ease, color 0.5s ease;
+}
+
+.aboutme-button:hover {
+    background-color: rgb(0, 0, 0); /* Fills the color from top to bottom on hover */
+    color: #FF9142; /* Invert the text color on hover */
+    transition: background 0.5s ease, color 0.5s ease;
+}
+
+.cv-button{
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 100px;
+    padding: 15px;
+    padding-left: 36px;
+    padding-right: 36px;
+    border: none; 
+    background-color: #FF9142; /* Set the initial button color */
+    background-size: 200% 200%;
+    background-position: top;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    transition: background 0.5s ease, color 0.5s ease;
+}
+
+.cv-button:hover {
+    background-color: rgb(0, 0, 0); /* Fills the color from top to bottom on hover */
+    color: #FF9142; /* Invert the text color on hover */
+    transition: background 0.5s ease, color 0.5s ease;
+}
+
+.button-container button{
+    margin: 10px;
+}

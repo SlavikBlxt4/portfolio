@@ -5,9 +5,11 @@ const Main = () => {
         <div>
           <div className="content">
             <h2>About me</h2>
-            <p>Information.</p>
-            <h2>Website design and development for your brand</h2>
-            <p>Description of services offered.</p>
+            <p>I am a Full-Stack developer, based on Spain. I focus on the design and development of websites for companies and brands. My portfolio shows my wide range of projects, which cover both applications and websites.</p>
+            <div className="button-container">
+              <button className="aboutme-button">Find out more about me</button>
+              <button className="cv-button">Download my CV</button>
+            </div>
           </div>
     
           <div className="skills">
