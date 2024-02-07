@@ -57,8 +57,13 @@ body {
     font-size: 12px;
     margin-left: 20px;
     color: white;
+
 }
 
+.name a{
+    text-decoration: none;  
+    color: #fff; 
+}
 
 
 #contact-link{
@@ -169,6 +174,7 @@ li{
     font-size: 72px;
     /*i need to justify to the center myh text*/
     margin-bottom: 20px;
+    align-items: center;
 }
 .start button{
     font-family: 'Rubik', sans-serif;
@@ -204,3 +210,32 @@ li{
 button{
     cursor: pointer;
 }
+
+/* Other CSS styles */
+
+.discover-button {
+  opacity: 0;
+}
+
+.discover-button.show {
+  opacity: 1;
+  transition: opacity 1s ease; /* Smooth transition effect */
+}
+
+/* Other CSS styles *//* Other CSS styles */
+
+.typing-cursor {
+  display: inline-block;
+  vertical-align: middle;
+  width: 5px; /* Adjust the width of the cursor */
+  height: 70px; /* Adjust the height of the cursor */
+  background-color: rgb(255, 255, 255); /* Adjust the color of the cursor */
+  animation: blink-caret 0.75s infinite; /* Define the blinking animation */
+}
+
+@keyframes blink-caret {
+  0%, 100% { opacity: 0; } /* Define the opacity for the blinking effect */
+  50% { opacity: 1; } /* Define the opacity for the blinking effect */
+}
+
+/* Other CSS styles */
