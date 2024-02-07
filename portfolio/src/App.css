@@ -98,6 +98,7 @@ body {
     font-size: 20px; /* Reduced font size */
     font-family: 'Syne', sans-serif;
     font-weight: 700;
+    margin-right: 10px;
   }
 
 .flex-container {
@@ -130,6 +131,7 @@ li{
 .social-media{
     align-items: center;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 .copyright {
@@ -188,7 +190,7 @@ li{
     }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 510px) {
     .flex-container{
         flex-direction: column;
     }
@@ -197,4 +199,8 @@ li{
     .start h1{
         font-size: 41px;
     }
+}
+
+button{
+    cursor: pointer;
 }

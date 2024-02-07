@@ -40,9 +40,7 @@ const Portfolio = () => {
           <Route path="/home" element={<Main />} />
           <Route path="/projects" element={<ProjectDetail />} />
         </Routes>
-      <div className='footer'>
-        <Footer />
-      </div>
+      <Footer />
     </div>
   </BrowserRouter>
   );
