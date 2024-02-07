@@ -13,7 +13,6 @@ body {
 .header {
     color: #fff;
     text-align: center;
-    background-color: #949494;
     display: flex;
     justify-content: space-between;
     padding: 5px;
@@ -40,7 +39,7 @@ body {
     margin-left: auto;
     padding: 5px;
     display: flex;
-    background-color: #FF9142;
+    margin-right: 20px;
 
 }
 .menu-list a{
@@ -48,21 +47,29 @@ body {
     color: white;
     padding: 20px;
     font-family: 'Rubik', sans-serif;
-    font-size: 14px;
+    font-size: 10px;
     opacity: 0.5; 
     font-weight: 450;
+}
+
+.name{
+    font-family: 'Syne', sans-serif;
+    font-size: 12px;
+    margin-left: 20px;
+    color: white;
 }
 
 
 
 #contact-link{
-    margin-left: 65px;
+    margin-left: 40px;
     opacity: 1;
     border-radius: 100px;
     padding: 15px;
     padding-left: 36px;
     padding-right: 36px;
     border: 2px solid #D8D8D8;
+    background-color: #030304;
 }
 
 @media screen and (max-width: 980px) {
@@ -73,7 +80,7 @@ body {
 }
 
 .footer {
-    padding: 10px;
+    padding: 5px;
     color: #fff;
     margin-top: 20px;
     font-family: 'Rubik', sans-serif;
@@ -95,7 +102,7 @@ body {
   
 .mail a {
     color: white;
-    font-size: 38px; /* Reduced font size */
+    font-size: 20px; /* Reduced font size */
     font-family: 'Syne', sans-serif;
     font-weight: 700;
   }
@@ -112,29 +119,6 @@ body {
     display: flex;
   }
 
-.name-footer{
-    margin-left: 100px; /* Adjusted margin */
-    font-size: 64px;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 700;
-}
-
-
-.phone-number{
-    margin-left: auto;
-    padding: 10px;
-    display: flex;
-    margin-right: 144px;
-}
-
-.phone-number a{
-    margin-right: 219px;
-    text-decoration: none;
-    color: white;
-    font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-}
 
 li{
     list-style-type: none;
@@ -148,8 +132,8 @@ li{
 }
 
 .social-media img{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 .social-media{
@@ -165,7 +149,7 @@ li{
     color: white;
     font-family: 'Syne', sans-serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 8px;
 }
 
 .line-separator {
