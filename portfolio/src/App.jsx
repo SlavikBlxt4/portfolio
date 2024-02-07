@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Header from './componentes/header';
 import Footer from './componentes/footer';
@@ -8,6 +8,7 @@ import Contact from './paginas/Contact';
 import Main from './paginas/Main';
 import ProjectDetail from './paginas/ProjectDetail';
 import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
+
 
 /*<div className="content">
         <h2>About me</h2>
@@ -33,7 +34,7 @@ const Portfolio = () => {
     <div className="App">
       <Header />
         <Routes>
-          <Route path="/start" element={<Start />} />
+          <Route path="/" element={<Start />} />
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/home" element={<Main />} />
