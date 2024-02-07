@@ -6,13 +6,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-image: url(./img/background.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .header {
-    background-color: #333;
     color: #fff;
-    padding: 10px;
     text-align: center;
+    background-color: #949494;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
 }
 .content {
     margin: 20px;
@@ -31,38 +35,34 @@ body {
     width: 30%;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-}
 .menu-list{
     list-style-type: none;
-    background-color: chocolate;
     margin-left: auto;
-    padding: 10px;
+    padding: 5px;
     display: flex;
-    margin-right: 144px;
+    background-color: #FF9142;
 
 }
 .menu-list a{
     text-decoration: none;
     color: white;
-    padding: 36px;
+    padding: 20px;
     font-family: 'Rubik', sans-serif;
     font-size: 14px;
     opacity: 0.5; 
     font-weight: 450;
 }
 
-.name{
-    margin-left: 90px;
-    background-color: aquamarine;
-}
+
 
 #contact-link{
     margin-left: 65px;
-    background-color: aquamarine;
     opacity: 1;
+    border-radius: 100px;
+    padding: 15px;
+    padding-left: 36px;
+    padding-right: 36px;
+    border: 2px solid #D8D8D8;
 }
 
 @media screen and (max-width: 980px) {
@@ -73,7 +73,6 @@ body {
 }
 
 .footer {
-    background-color: #101010;
     padding: 10px;
     color: #fff;
     margin-top: 20px;
@@ -92,7 +91,6 @@ body {
   
 .mail {
     text-align: center;
-    margin-left: 150px;
   }
   
 .mail a {
@@ -104,13 +102,12 @@ body {
 
 .flex-container {
     display: flex;
-    justify-content: space-between;
-    /* How to align all the elements in the flex container vertically */
     align-items: center;
+    justify-content: center;
   }
 
 .social {
-    margin-right: 150px; /* Adjusted margin */
+     /* Adjusted margin */
     align-items: center; /* How to align all the elements in the flex container vertically */
     display: flex;
   }
