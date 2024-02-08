@@ -331,3 +331,39 @@ button{
 .skills{
     background-color: cyan;
 }
+
+.page-enter {
+    opacity: 0;
+  }
+  
+  .page-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+  }
+  
+  .page-exit {
+    opacity: 1;
+  }
+  
+  .page-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+  
+  .fade-in-enter {
+    opacity: 0;
+  }
+  
+  .fade-in-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+  }
+  
+  .fade-in-exit {
+    opacity: 1;
+  }
+  
+  .fade-in-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+  }
