@@ -13,30 +13,56 @@ const Main = () => {
           </div>
     
           <div className="skills">
-            <p>My Skills</p>
-            <ul>
-              <li>HTML</li>
-              <li>CSS/SASS</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Node.js</li>
-              <li>Express</li>
-              <li>Git</li>
-            </ul>
-            <p>Tools</p>
-            <ul>
-              <li>Visual Studio Code</li>
-              <li>Visual Studio</li>
-              <li>Postman</li>
-              <li>Figma</li>
-              <li>GitHub</li>
-            </ul>
-            <p>Languages</p>
-            <ul>
-              <li>English</li>
-              <li>Spanish</li>
-            </ul>
-
+            <h2>My Skills</h2>
+            <div className="code-languages">
+              <ul className="code-title">
+                <li>Java
+                  <ul className="code-desc">
+                    <li>Spring Boot</li>
+                  </ul>
+                </li>
+                <li>HTML
+                <ul className="code-desc">
+                    <li>Spring Boot</li>
+                  </ul>
+                </li>
+                <li>CSS
+                <ul className="code-desc">
+                    <li>Spring Boot</li>
+                  </ul>
+                </li>
+                <li>React.js
+                <ul className="code-desc">
+                    <li>Spring Boot</li>
+                  </ul>
+                </li>
+                <li>TypeScript
+                <ul className="code-desc">
+                    <li>Spring Boot</li>
+                  </ul>
+                </li>
+                <li>JavaScript
+                <ul className="code-desc">
+                    <li>Spring Boot</li>
+                  </ul>
+                </li>
+                <li>Bash
+                <ul className="code-desc">
+                    <li>Spring Boot</li>
+                  </ul>
+                </li>
+                <li>Git
+                <ul className="code-desc">
+                    <li>Spring Boot</li>
+                  </ul>
+                </li>
+                <li>AWS
+                <ul className="code-desc">
+                    <li>Spring Boot</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       );

@@ -43,17 +43,51 @@ body {
 }
 
 .skills {
+    margin-top: 30px;
+    
+}
+
+.skills ul{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
 }
-.skill {
+.code-title li{
     background-color: #ddd;
+    border: 5px solid #ccc;
     border-radius: 5px;
     font-size: 1.2em;
     margin: 5px;
-    padding: 10px;
+    padding: 38px;  
     width: 30%;
+    padding-bottom: 135px;
+    padding-top: 171px;
+    width: 335px;
+}
+
+.code-desc li{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: left;
+    width: 100%;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.skills h2{
+    font-family: 'Syne', sans-serif;
+    font-size: 64px;
+    margin-bottom: 88px;
+    text-align: center;
+    width: 100%;
+    color: white;
 }
 
 .menu-list{
@@ -67,11 +101,18 @@ body {
 .menu-list a{
     text-decoration: none;
     color: white;
-    padding: 20px;
     font-family: 'Rubik', sans-serif;
     font-size: 10px;
     opacity: 0.5; 
     font-weight: 450;
+    background-color: #030304;
+    margin: 20px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.menu-list a:hover{
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
 }
 
 .name{
@@ -97,6 +138,7 @@ body {
     padding-right: 36px;
     border: 2px solid #D8D8D8;
     background-color: #030304;
+    transition: background 0.5s ease, color 0.5s ease;
 }
 
 .footer {
@@ -188,7 +230,6 @@ li{
     margin-top: 50px;
     display: inline-block;
     max-width: 100%;    
-    
 }
 
 .start h1{
@@ -251,7 +292,7 @@ button{
 
 .discover-button.show {
   opacity: 1;
-  transition: opacity 1s ease; /* Smooth transition effect */
+  transition: opacity 1s ease, background 0.5s ease, color 0.5s ease;/* Smooth transition effect */
 }
 
 /* Other CSS styles *//* Other CSS styles */
@@ -328,8 +369,17 @@ button{
     margin-right: 20px;
 }
 
+.button-container{
+    margin-bottom: 180px;
+    
+}
+
 .skills{
     background-color: cyan;
+}
+
+.skills div{
+    margin: 20px;
 }
 
 .page-enter {
