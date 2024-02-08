@@ -13,12 +13,30 @@ const Main = () => {
           </div>
     
           <div className="skills">
-            <div className="skill">HTML</div>
-            <div className="skill">Website design and development</div>
-            <div className="skill">JavaScript</div>
-            <div className="skill">Python</div>
-            <div className="skill">CSS</div>
-            <div className="skill">Java</div>
+            <p>My Skills</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS/SASS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>Git</li>
+            </ul>
+            <p>Tools</p>
+            <ul>
+              <li>Visual Studio Code</li>
+              <li>Visual Studio</li>
+              <li>Postman</li>
+              <li>Figma</li>
+              <li>GitHub</li>
+            </ul>
+            <p>Languages</p>
+            <ul>
+              <li>English</li>
+              <li>Spanish</li>
+            </ul>
+
           </div>
         </div>
       );
