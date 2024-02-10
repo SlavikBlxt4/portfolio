@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap'); /*rubik font*/
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700&display=swap'); /* Syne font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 body {
     font-family: Arial, sans-serif;
@@ -8,7 +9,7 @@ body {
     background-image: url(./img/background.PNG);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    background-attachment: fixed;
 }
 .header {
     color: #fff;
@@ -16,13 +17,16 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 5px;
+    margin-top: 5px;
+    align-items: center;
 }
 .content {
     margin: 20px;
     color: white;
-    width: 50%;
+    width: 50.5%;
     margin-left: 100px;
     margin-top: 60px;
+    margin-right: 40px;
 }
 
 .content h2{
@@ -31,7 +35,7 @@ body {
     font-size: 56px;
 }
 
-.content p{
+.pc-version {
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     line-height: 1.5;
@@ -40,6 +44,10 @@ body {
     text-align: left;
     width: 100%;
     opacity: 0.5;
+}
+
+.mobile-version{
+    display: none;
 }
 
 .skills {
@@ -102,10 +110,9 @@ body {
     text-decoration: none;
     color: white;
     font-family: 'Rubik', sans-serif;
-    font-size: 10px;
+    font-size: 13px;
     opacity: 0.5; 
     font-weight: 450;
-    background-color: #030304;
     margin: 20px;
     transition: opacity 0.2s ease-in-out;
 }
@@ -117,7 +124,7 @@ body {
 
 .name{
     font-family: 'Syne', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     margin-left: 20px;
     color: white;
 
@@ -136,7 +143,7 @@ body {
     padding: 15px;
     padding-left: 36px;
     padding-right: 36px;
-    border: 2px solid #D8D8D8;
+    border: 2px solid white;
     background-color: #030304;
     transition: background 0.5s ease, color 0.5s ease;
 }
@@ -227,7 +234,7 @@ li{
     align-items: center;
     text-align: center;
     padding: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
     display: inline-block;
     max-width: 100%;    
 }
@@ -235,14 +242,13 @@ li{
 .start h1{
     font-family: 'Syne', sans-serif;
     font-size: 72px;
-    /*i need to justify to the center myh text*/
     margin-bottom: 20px;
     align-items: center;
 }
 .start button {
     font-family: 'Rubik', sans-serif;
-    font-size: 13px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 500;
     border-radius: 100px;
     padding: 15px;
     padding-left: 36px;
@@ -252,10 +258,9 @@ li{
     background-size: 200% 200%;
     background-position: top;
     color: rgb(0, 0, 0);
-    margin-top: 20px;
-    transition: background 0.5s ease, color 0.5s ease;
-    
-  }
+    margin-top: 40px;
+    transition: background 0.5s ease, color 0.5s ease; 
+}
   
 .start button:hover {
     background-color: rgb(0, 0, 0); /* Fills the color from top to bottom on hover */
@@ -263,22 +268,7 @@ li{
     transition: background 0.5s ease, color 0.5s ease;
   }
 
-@media screen and (max-width: 578px) {
-    .menu-list{
-        display: none;
-    }
-}
 
-@media screen and (max-width: 510px) {
-    .flex-container{
-        flex-direction: column;
-    }
-}
-@media screen and (max-width: 690px) {
-    .start h1{
-        font-size: 41px;
-    }
-}
 
 button{
     cursor: pointer;
@@ -321,7 +311,7 @@ button{
 
 .aboutme-button {
     font-family: 'Rubik', sans-serif;
-    font-size: 13px;
+    font-size: 17px;
     font-weight: 700;
     border-radius: 100px;
     padding: 15px;
@@ -344,7 +334,7 @@ button{
 
 .cv-button{
     font-family: 'Rubik', sans-serif;
-    font-size: 13px;
+    font-size: 17px;
     font-weight: 700;
     border-radius: 100px;
     padding: 15px;
@@ -357,6 +347,10 @@ button{
     color: rgb(0, 0, 0);
     margin-top: 20px;
     transition: background 0.5s ease, color 0.5s ease;
+}
+.cv-button a {
+    color: inherit;
+    text-decoration: inherit;
 }
 
 .cv-button:hover {
@@ -400,7 +394,7 @@ button{
     transition: opacity 300ms;
   }
   
-  .fade-in-enter {
+ /* .fade-in-enter { // comentado por si acaso
     opacity: 0;
   }
   
@@ -416,4 +410,81 @@ button{
   .fade-in-exit-active {
     opacity: 0;
     transition: opacity 300ms;
+  } */
+
+  .image{
+    margin-top: 70px;
+    margin-right: 150px;
   }
+
+  .image img{
+    width: 400px;
+    border-radius: 30px;
+  }
+
+  .flex-container-main{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+@media screen and (max-width: 510px) {
+    .flex-container{
+        flex-direction: column;
+    }
+
+    .pc-version{
+        display: none;
+    }
+
+    .mobile-version{
+        display: block;
+        font-family: 'Rubik', sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        margin-top: 0;
+        text-align: left;
+        width: 100%;
+        opacity: 0.5;
+    }
+}
+
+@media screen and (max-width: 646px) {
+    .menu-list{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .start h1{
+        font-size: 45px;
+        width: 100%;
+    }
+    .start button{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .image{
+        display: none;
+    }
+    .content{
+        width: 100%;
+        text-align: center;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    
+}
+
+@media screen and (max-width: 1050px) {
+    .image img{
+        width: 300px;
+        margin-top: 160px;
+    }
+    
+}
