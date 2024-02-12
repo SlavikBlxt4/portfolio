@@ -13,7 +13,7 @@ const Footer = () => {
 
         <div className="flex-container">
             <div className="mail">
-                <a href="mailto: slavikiftodii@gmail.com">slavikiftodii@gmail.com</a> 
+                <a href="mailto: slavikiftodii5@gmail.com">slavikiftodii5@gmail.com</a> 
             </div>
             <div className="social">
                 <div className="social-media">
@@ -29,9 +29,7 @@ const Footer = () => {
                     </a>
                         
                     
-                    <a href="https://instagram.com/slaaviik_" target="_blank" rel="noopener noreferrer">
-                        <img src={instagram} alt="Instagram"/>
-                    </a>
+             
                         
                     
                     <a href="https://wa.me/+34642239216" target="_blank" rel="noopener noreferrer">

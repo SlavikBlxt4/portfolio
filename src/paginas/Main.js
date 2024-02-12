@@ -31,7 +31,7 @@ const Main = () => {
             </div>
           </div>
           <div className="skills">
-            <h2>My Skills</h2>
+            <h2>I know about this</h2>
             <div className="code-languages">
               <ul className="code-title">
                 <li><div className="title-logo"><p>Java</p><img src={Java} className="code-logo"></img></div>
