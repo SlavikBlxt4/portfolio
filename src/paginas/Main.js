@@ -49,7 +49,7 @@ const Main = () => {
                     <li>I specialize in creating beautiful, intuitive styles that make your website or application stand out.</li>
                   </ul>
                 </li>
-                <li><div className="title-logo"><p>React</p><img src={ReactLogo} className="code-logo"></img></div>
+                <li><div className="title-logo"><p>React.js</p><img src={ReactLogo} className="code-logo"></img></div>
                 <ul className="code-desc">
                     <li>With my expertise in React.js, I create dynamic and responsive user interfaces that improve user engagement and provide seamless experiences across all platforms.</li>
                   </ul>
@@ -74,7 +74,7 @@ const Main = () => {
                     <li>My command of Git allows me to efficiently manage and track changes across the codebase, ensuring smooth collaboration and version control in development projects.</li>
                   </ul>
                 </li>
-                <li><div className="title-logo"><p>AWS</p><img src={AWS} className="code-logo"></img></div>
+                <li><div className="title-logo"><p>Amazon Web Services</p><img src={AWS} className="code-logo"></img></div>
                 <ul className="code-desc">
                     <li>I adeptly navigate the AWS ecosystem to optimize web application deployment and scalability, architecting robust and secure cloud solutions.</li>
                   </ul>
