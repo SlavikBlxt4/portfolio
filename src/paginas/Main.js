@@ -1,6 +1,15 @@
 import React from "react"
 import Curriculum from '../componentes/cv.pdf';
 import FotoPerfil from '../componentes/foto_lkdin.png'
+import AWS from "../skills-logos/aws.png"
+import Bash from "../skills-logos/bash_v2.png"
+import CSS from "../skills-logos/css.png"
+import Git from "../skills-logos/git.png"
+import HTML from "../skills-logos/html.png"
+import Java from "../skills-logos/java.png"
+import JavaScript from "../skills-logos/javascript.png"
+import ReactLogo from "../skills-logos/react.png"
+import TypeScript from "../skills-logos/typescript.png"
 
 const Main = () => {
     return (
@@ -14,7 +23,7 @@ const Main = () => {
               </p>
               <div className="button-container">
                 <button className="aboutme-button">Find out more about me</button>
-                <a href={Curriculum} download="cv.pdf"  target="_blank"><button className="cv-button">Download my CV</button></a>
+                <a href={Curriculum} download="cv.pdf"  target="_blank" rel="noreferrer"><button className="cv-button">Download my CV</button></a>
               </div>
             </div>
             <div className="image">
@@ -25,49 +34,49 @@ const Main = () => {
             <h2>My Skills</h2>
             <div className="code-languages">
               <ul className="code-title">
-                <li>Java
+                <li><div className="title-logo"><p>Java</p><img src={Java} className="code-logo"></img></div>
                   <ul className="code-desc">
-                    <li>Spring Boot</li>
+                    <li>Leveraging Java's versatility, I specialize in crafting robust server-side solutions that ensure optimal functionality and user experiences.</li>
                   </ul>
                 </li>
-                <li>HTML
+                <li><div className="title-logo"><p>HTML</p><img src={HTML} className="code-logo"></img></div>
                 <ul className="code-desc">
-                    <li>Spring Boot</li>
+                    <li>As a Full-Stack developer, I am able to create web structures that ensure your website is well structured and easily readable.</li>
                   </ul>
                 </li>
-                <li>CSS
+                <li><div className="title-logo"><p>CSS</p><img src={CSS} className="code-logo"></img></div>
                 <ul className="code-desc">
-                    <li>Spring Boot</li>
+                    <li>I specialize in creating beautiful, intuitive styles that make your website or application stand out.</li>
                   </ul>
                 </li>
-                <li>React.js
+                <li><div className="title-logo"><p>React</p><img src={ReactLogo} className="code-logo"></img></div>
                 <ul className="code-desc">
-                    <li>Spring Boot</li>
+                    <li>With my expertise in React.js, I create dynamic and responsive user interfaces that improve user engagement and provide seamless experiences across all platforms.</li>
                   </ul>
                 </li>
-                <li>TypeScript
+                <li><div className="title-logo"><p>TypeScript</p><img src={TypeScript} className="code-logo"></img></div>
                 <ul className="code-desc">
-                    <li>Spring Boot</li>
+                    <li>As an experienced back-end developer, I provide web development services that encompass architecting and implementing robust server-side solutions.</li>
                   </ul>
                 </li>
-                <li>JavaScript
+                <li><div className="title-logo"><p>JavaScript</p><img src={JavaScript} className="code-logo"></img></div>
                 <ul className="code-desc">
-                    <li>Spring Boot</li>
+                    <li>As a skilled back-end developer, my proficiency extends to JavaScript, enabling me to create dynamic and responsive web applications.</li>
                   </ul>
                 </li>
-                <li>Bash
+                <li><div className="title-logo"><p>Bash</p><img src={Bash} className="code-logo"></img></div>
                 <ul className="code-desc">
-                    <li>Spring Boot</li>
+                    <li>My proficiency in Bash extends to creating efficient scripts for deployment, system maintenance, and task automation.</li>
                   </ul>
                 </li>
-                <li>Git
+                <li><div className="title-logo"><p>Git</p><img src={Git} className="code-logo"></img></div>
                 <ul className="code-desc">
-                    <li>Spring Boot</li>
+                    <li>My command of Git allows me to efficiently manage and track changes across the codebase, ensuring smooth collaboration and version control in development projects.</li>
                   </ul>
                 </li>
-                <li>AWS
+                <li><div className="title-logo"><p>AWS</p><img src={AWS} className="code-logo"></img></div>
                 <ul className="code-desc">
-                    <li>Spring Boot</li>
+                    <li>I adeptly navigate the AWS ecosystem to optimize web application deployment and scalability, architecting robust and secure cloud solutions.</li>
                   </ul>
                 </li>
               </ul>

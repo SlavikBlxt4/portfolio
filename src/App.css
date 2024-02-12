@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap'); /*rubik font*/
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700&display=swap'); /* Syne font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap');
 
 body {
     font-family: Arial, sans-serif;
@@ -65,28 +66,54 @@ body {
     justify-content: center;
 }
 .code-title li{
-    background-color: #ddd;
-    border: 5px solid #ccc;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    color: #ccc;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 1.2em;
-    margin: 5px;
+    font-size: 28px;
+    margin: 50px;
     padding: 38px;  
-    width: 30%;
-    padding-bottom: 135px;
-    padding-top: 171px;
-    width: 335px;
+    padding-bottom: 50px;
+    padding-top: 130px;
+    width: 400px;
 }
 
 .code-desc li{
-    font-family: 'Rubik', sans-serif;
-    font-size: 18px;
+    /*font-family: 'Rubik', sans-serif;
+    font-size: 14px;
     line-height: 1.5;
-    margin-bottom: 20px;
     margin-top: 0;
     text-align: left;
     width: 100%;
     opacity: 0.5;
-    text-align: center;
+    padding-top: 40px;
+    font-weight: 0;
+    margin: 0;*/
+    font-weight: 0;
+    border: none;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;  
+    padding-bottom: 50px;
+    padding-top: 15px;
+    width: 400px;
+    padding-bottom: 0;
+}
+
+
+
+
+.title-logo{
+    margin: 0;
+    align-items: center;
+    display: flex;
+}
+
+.code-logo{
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 0px;
 }
 
 .skills h2{
@@ -368,13 +395,8 @@ button{
     
 }
 
-.skills{
-    background-color: cyan;
-}
 
-.skills div{
-    margin: 20px;
-}
+
 
 .page-enter {
     opacity: 0;
