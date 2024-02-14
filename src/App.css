@@ -449,6 +449,10 @@ button{
     justify-content: space-between;
   }
 
+  .menu-button{
+    display: none;
+}
+
 
 
 @media screen and (max-width: 510px) {
@@ -471,12 +475,34 @@ button{
         width: 100%;
         opacity: 0.5;
     }
+
+    .skills h2{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
 }
 
 @media screen and (max-width: 646px) {
     .menu-list{
         display: none;
     }
+    .menu-button{
+        display: flex;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .menu-button button{
+        border: none;
+        background-color: transparent;
+    }
+
+    .menu-button img{
+        width: 30px;
+        height: 30px;
+        
+    }
+
 }
 
 @media screen and (max-width: 690px) {
@@ -531,3 +557,4 @@ button{
     }
     
 }
+

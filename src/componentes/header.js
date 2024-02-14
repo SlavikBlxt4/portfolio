@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import MenuDesplegable from '../img/menu-desplegable.png';
 
 const Header = () => {
     return(
@@ -12,6 +13,9 @@ const Header = () => {
             <li><Link to="/projects">MY WORKS</Link></li>
             <li><Link to="/contact" id="contact-link">CONTACT</Link></li>
           </ul>
+          <div className="menu-button">
+            <button><img src={MenuDesplegable} alt='menu'></img></button>
+          </div>
         </div>        
       </div>
     )
