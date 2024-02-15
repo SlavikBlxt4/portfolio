@@ -9,6 +9,8 @@ import Main from './paginas/Main';
 import ProjectDetail from './paginas/ProjectDetail';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import './App.css';
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -43,7 +45,5 @@ const App = () => {
     </Router>
   );
 };
-
-
 
 export default App;

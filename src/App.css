@@ -469,6 +469,31 @@ button{
     display: none;
 }
 
+
+.contact-title-class h1{
+    color: white;
+    font-family: 'Syne', sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    width: 100%;    
+    margin-left: 142px;
+    margin-bottom: 10px;
+}
+
+.contact-title-class p{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    margin-bottom: 90px;
+    width: 100%;
+    margin-left: 145px;
+    opacity: 0.5;
+}
+
+
+
+
+
 @media screen and (max-width: 420px) {
     .start{
         margin-top: 50px; 

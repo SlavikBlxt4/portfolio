@@ -10,10 +10,7 @@ import Java from "../skills-logos/java.png"
 import JavaScript from "../skills-logos/javascript.png"
 import ReactLogo from "../skills-logos/react.png"
 import TypeScript from "../skills-logos/typescript.png"
-
-
-
-
+import { Link } from 'react-router-dom';
 
 
 function Main() {
@@ -56,7 +53,7 @@ function Main() {
           As a student at San Valero Center, I'm passionate about understanding system functionality, programming, and cybersecurity. I love challenges and aim for continuous improvement in all aspects of technology, striving to be better each day.
           </p>
           <div className="button-container">
-            <button className="aboutme-button">Find out more about me</button>
+          <Link to="/aboutme"><button className="aboutme-button">Find out more about me</button></Link>
             <a href={Curriculum} download="cv.pdf"  target="_blank" rel="noreferrer"><button className="cv-button">Download my CV</button></a>
           </div>
         </div>
