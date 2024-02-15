@@ -11,6 +11,11 @@ import JavaScript from "../skills-logos/javascript.png"
 import ReactLogo from "../skills-logos/react.png"
 import TypeScript from "../skills-logos/typescript.png"
 
+
+
+
+
+
 const Main = () => {
     return (
         <div>
@@ -31,7 +36,7 @@ const Main = () => {
             </div>
           </div>
           <div className="skills">
-            <h2>I know about this</h2>
+            <h2>My Tech Stack</h2>
             <div className="code-languages">
               <ul className="code-title">
                 <li><div className="title-logo"><p>Java</p><img src={Java} className="code-logo"></img></div>

@@ -65,6 +65,18 @@ body {
     width: 100%;
     justify-content: center;
 }
+
+.code-title{
+    padding: 20px;
+    margin-bottom: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.code-title.show{
+    opacity: 1;
+}
+
 .code-title li{
     font-family: 'Urbanist', sans-serif;
     font-weight: 500;
@@ -248,7 +260,7 @@ li{
     color: white;
     font-family: 'Syne', sans-serif;
     font-weight: 700;
-    font-size: 8px;
+    font-size: 12px;
 }
 
 .line-separator {
@@ -261,7 +273,7 @@ li{
     align-items: center;
     text-align: center;
     padding: 30px;
-    margin-top: 30px;
+    margin-top: 120px;
     display: inline-block;
     max-width: 100%;    
 }
@@ -388,11 +400,11 @@ button{
 
 .button-container button{
     margin-right: 20px;
+     
 }
 
 .button-container{
     margin-bottom: 180px;
-    
 }
 
 
@@ -453,6 +465,12 @@ button{
     display: none;
 }
 
+@media screen and (max-width: 420px) {
+    .start{
+        margin-top: 50px; 
+    }
+    
+}
 
 
 @media screen and (max-width: 510px) {
@@ -480,6 +498,13 @@ button{
         font-size: 30px;
         margin-bottom: 40px;
     }
+}
+
+@media screen and (max-width: 610px) {
+    .button-container button{
+        margin-right: 20px;
+    }
+    
 }
 
 @media screen and (max-width: 646px) {
