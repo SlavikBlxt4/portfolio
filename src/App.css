@@ -69,12 +69,18 @@ body {
 .code-title{
     padding: 20px;
     margin-bottom: 20px;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+
 }
 
-.code-title.show{
-    opacity: 1;
+.code-title li,
+.code-desc li {
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+
+.code-title li.show,
+.code-desc li.show {
+  opacity: 1;
 }
 
 .code-title li{

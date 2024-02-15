@@ -10,6 +10,8 @@ import ProjectDetail from './paginas/ProjectDetail';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import './App.css';
 
+
+
 const Layout = ({ children }) => {
   const location = useLocation();
 
@@ -41,5 +43,7 @@ const App = () => {
     </Router>
   );
 };
+
+
 
 export default App;
