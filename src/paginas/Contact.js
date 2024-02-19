@@ -1,44 +1,98 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import { useState } from 'react';
 
 function ContactForm() {
-    const [state, handleSubmit] = useForm("xeqygkwy");
-    if (state.succeeded) {
-        return <p>Thanks for joining!</p>;
+    const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    emailAddress: '',
+    websiteName: '',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prevData => ({
+      ...prevData,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch('https://formspree.io/f/xeqygkwy', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        // La solicitud fue exitosa
+        console.log('Formulario enviado correctamente');
+        // Puedes realizar acciones adicionales después de enviar el formulario
+        // Por ejemplo, mostrar un mensaje de éxito, redireccionar al usuario, etc.
+      } else {
+        // La solicitud falló
+        console.error('Error al enviar el formulario');
+      }
+    } catch (error) {
+      console.error('Error de red:', error);
     }
-    return (
-        <form className='form' onSubmit={handleSubmit}>
-        <label htmlFor="email">
-          EMAIL ADRESS
-        </label>
-        <input
-          id="email"
-          type="email" 
-          name="email"
-        />
-        <ValidationError 
-          prefix="Email" 
-          field="email"
-          errors={state.errors}
-        />
-        <label htmlFor="message">
-          MESSAGE
-        </label>
-        <textarea
-          id="message"
-          name="message"
-        />
-        <ValidationError 
-          prefix="Message" 
-          field="message"
-          errors={state.errors}
-        />
-        <button type="submit" disabled={state.submitting}>
-          SEND
-        </button>
+  };
+
+  return (
+    <div className="container">
+      <div className="text">Get In Touch With Me</div>
+      <form onSubmit={handleSubmit}>
+        <div className="form-row">
+          <div className="input-data">
+            <input type="text" name="firstName" value={formData.firstName} onChange={handleChange} required />
+            <div className="underline"></div>
+            <label htmlFor="firstName">First Name</label>
+          </div>
+          <div className="input-data">
+            <input type="text" name="lastName" value={formData.lastName} onChange={handleChange} required />
+            <div className="underline"></div>
+            <label htmlFor="lastName">Last Name</label>
+          </div>
+        </div>
+        <div className="form-row">
+          <div className="input-data">
+            <input type="text" name="emailAddress" value={formData.emailAddress} onChange={handleChange} required />
+            <div className="underline"></div>
+            <label htmlFor="emailAddress">Email Address</label>
+          </div>
+          <div className="input-data">
+            <input type="text" name="websiteName" value={formData.websiteName} onChange={handleChange} required />
+            <div className="underline"></div>
+            <label htmlFor="websiteName">Website Name</label>
+          </div>
+        </div>
+        <div className="form-row">
+          <div className="input-data textarea">
+            <textarea rows="8" cols="80" name="message" value={formData.message} onChange={handleChange} required></textarea>
+            <br />
+            <div className="underline"></div>
+            <label htmlFor="message">Write your message</label>
+          </div>
+        </div>
+        <div className="form-row submit-btn">
+          <div className="input-data">
+            <div className="inner"></div>
+            <input type="submit" value="submit" />
+          </div>
+        </div>
       </form>
-    );
-  }
+    </div>
+  );
+}
+
+  
 
 
 const Contact = () => {
@@ -50,7 +104,6 @@ const Contact = () => {
                 <div style={{ height: '1px', backgroundColor: 'white', margin: '20px 0' }}></div>
             </div>
             <div className='form-class'>
-                <h2>Get In Touch With Me</h2>
                 <ContactForm />
             </div>
         </div>
