@@ -7,9 +7,9 @@ function ContactForm() {
         return <p>Thanks for joining!</p>;
     }
     return (
-        <form onSubmit={handleSubmit}>
+        <form className='form' onSubmit={handleSubmit}>
         <label htmlFor="email">
-          Email Address
+          EMAIL ADRESS
         </label>
         <input
           id="email"
@@ -21,6 +21,9 @@ function ContactForm() {
           field="email"
           errors={state.errors}
         />
+        <label htmlFor="message">
+          MESSAGE
+        </label>
         <textarea
           id="message"
           name="message"
@@ -31,7 +34,7 @@ function ContactForm() {
           errors={state.errors}
         />
         <button type="submit" disabled={state.submitting}>
-          Submit
+          SEND
         </button>
       </form>
     );
@@ -46,7 +49,10 @@ const Contact = () => {
                 <p>For Any Project Knock Me</p>
                 <div style={{ height: '1px', backgroundColor: 'white', margin: '20px 0' }}></div>
             </div>
-            <ContactForm />
+            <div className='form-class'>
+                <h2>Get In Touch With Me</h2>
+                <ContactForm />
+            </div>
         </div>
     );
 };
