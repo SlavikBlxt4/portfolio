@@ -7,7 +7,6 @@ function ContactForm() {
     firstName: '',
     lastName: '',
     emailAddress: '',
-    websiteName: '',
     message: ''
   });
 
@@ -67,11 +66,6 @@ function ContactForm() {
             <div className="underline"></div>
             <label htmlFor="emailAddress">Email Address</label>
           </div>
-          <div className="input-data">
-            <input type="text" name="websiteName" value={formData.websiteName} onChange={handleChange} required />
-            <div className="underline"></div>
-            <label htmlFor="websiteName">Website Name</label>
-          </div>
         </div>
         <div className="form-row">
           <div className="input-data textarea">
@@ -84,7 +78,7 @@ function ContactForm() {
         <div className="form-row submit-btn">
           <div className="input-data">
             <div className="inner"></div>
-            <input type="submit" value="submit" />
+            <input type="submit" value="Send" />
           </div>
         </div>
       </form>

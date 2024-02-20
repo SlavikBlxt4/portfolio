@@ -499,22 +499,22 @@ button{
 
 
 .container{
-  max-width: 800px;
-
-  width: 800px;
-  padding: 25px 40px 10px 40px;
+  width: 100%;
+  display: flex;
+  padding: 25px 10px;
+  
 }
 .container .text{
-  text-align: center;
-  font-size: 41px;
+  margin-left: 30px;
+  margin-right: 120px;
+  font-size: 71px;
   font-weight: 600;
   font-family: 'Syne', sans-serif;
-  background: -webkit-linear-gradient(right, #FF9142, #fff, #FF9142, #fff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
 }
 .container form{
   padding: 30px 0 0 0;
+  margin-right: 30px;
 }
 .container form .form-row{
   display: flex;
@@ -536,6 +536,8 @@ form .form-row .textarea{
   height: 100%;
   border: none;
   font-size: 17px;
+  background-color: transparent;
+  color: white;
 }
 
 label{
@@ -595,13 +597,14 @@ label{
   width: 300%;
   position: absolute;
   left: -100%;
-  background: -webkit-linear-gradient(right, #FF9142, #fff, #FF9142, #fff);
+  background: -webkit-linear-gradient(right, #FF9142, #000000, #FF9142, #000000);
   transition: all 0.4s;
 }
 .submit-btn .input-data:hover .inner{
   left: 0;
 }
 .submit-btn .input-data input{
+  font-family: 'Rubik', sans-serif;
   background: none;
   border: none;
   color: #000000;
@@ -613,6 +616,14 @@ label{
   position: relative;
   z-index: 2;
 }
+
+.form-class{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
 
 
 @media (max-width: 700px) {
