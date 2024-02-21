@@ -469,14 +469,16 @@ button{
     display: none;
 }
 
+.contact-title-class{
+  text-align: center;
+}
+
 
 .contact-title-class h1{
     color: white;
     font-family: 'Syne', sans-serif;
     font-size: 40px;
     margin-top: 20px;
-    width: 100%;    
-    margin-left: 142px;
     margin-bottom: 10px;
 }
 
@@ -484,9 +486,7 @@ button{
     color: white;
     font-family: 'Rubik', sans-serif;
     font-size: 15px;
-    margin-bottom: 90px;
-    width: 100%;
-    margin-left: 145px;
+    margin-bottom: 30px;
     opacity: 0.5;
 }
 
@@ -499,12 +499,12 @@ button{
 
 
 .container{
-  width: 100%;
   display: flex;
   padding: 25px 10px;
   justify-content: space-between;
-  
+  margin-top: 100px;
 }
+
 .container .text{
   margin-left: 100px;
   font-size: 75px;
@@ -580,7 +580,7 @@ label{
   position: absolute;
   bottom: 0;
   height: 2px;
-  width: 100%;
+  width: 80%;
 }
 .input-data .underline:before{
   position: absolute;
@@ -665,6 +665,29 @@ label{
   }
 }
 
+@media screen and (max-width: 710px) {
+    .container .text{
+        display: none;
+    }
+
+    .container form{
+        margin-right: 0;
+        margin-left: 50px;
+    }
+
+    .input-data-button{
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .send-button{
+      margin-right: 50px;      
+    }
+}
+
 
 
 
@@ -701,6 +724,11 @@ label{
         font-size: 30px;
         margin-bottom: 40px;
     }
+
+    .container{
+      margin-top: 50px;
+    }
+
 }
 
 @media screen and (max-width: 560px) {

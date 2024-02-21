@@ -25,10 +25,13 @@ const Layout = ({ children }) => {
           {children}
         </CSSTransition>
       </TransitionGroup>
-      {location.pathname !== '/' && <Footer />}
+      {location.pathname !== '/' && location.pathname !== '/contact' && <Footer />}
     </div>
   );
 };
+
+
+
 
 const App = () => {
   const [page, setPage] = useState('/');
