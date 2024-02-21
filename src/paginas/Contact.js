@@ -76,9 +76,9 @@ function ContactForm() {
           </div>
         </div>
         <div className="form-row submit-btn">
-          <div className="input-data">
+          <div className="input-data-button">
             <div className="inner"></div>
-            <input type="submit" value="Send" />
+            <input type="submit" className="send-button" value="Send" />
           </div>
         </div>
       </form>
@@ -95,7 +95,7 @@ const Contact = () => {
             <div className='contact-title-class'>
                 <h1>Contact Me</h1>
                 <p>For Any Project Knock Me</p>
-                <div style={{ height: '1px', backgroundColor: 'white', margin: '20px 0' }}></div>
+                <div style={{ height: '0.2px', backgroundColor: 'white', margin: '20px 0' }}></div>
             </div>
             <div className='form-class'>
                 <ContactForm />

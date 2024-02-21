@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import Curriculum from '../componentes/cv.pdf';
+import Curriculum from '../componentes/curriculum.pdf';
 import FotoPerfil from '../componentes/foto_lkdin.png'
 import AWS from "../skills-logos/aws.png"
 import Bash from "../skills-logos/bash_v2.png"
@@ -105,7 +105,7 @@ function Main() {
                 <li>My command of Git allows me to efficiently manage and track changes across the codebase, ensuring smooth collaboration and version control in development projects.</li>
               </ul>
             </li>
-            <li><div className="title-logo"><p>Amazon Web Services</p><img src={AWS} className="code-logo"></img></div>
+            <li><div className="title-logo"><p>AWS</p><img src={AWS} className="code-logo"></img></div>
             <ul className="code-desc">
                 <li>I adeptly navigate the AWS ecosystem to optimize web application deployment and scalability, architecting robust and secure cloud solutions.</li>
               </ul>

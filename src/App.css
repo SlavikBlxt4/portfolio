@@ -502,19 +502,30 @@ button{
   width: 100%;
   display: flex;
   padding: 25px 10px;
+  justify-content: space-between;
   
 }
 .container .text{
-  margin-left: 30px;
-  margin-right: 120px;
-  font-size: 71px;
+  margin-left: 100px;
+  font-size: 75px;
   font-weight: 600;
   font-family: 'Syne', sans-serif;
   color: white;
+  max-width: 500px;
 }
+
+
+
+input:-webkit-autofill{
+  -webkit-text-fill-color: white !important;
+  -webkit-background-clip: text;
+}
+
+
+
 .container form{
   padding: 30px 0 0 0;
-  margin-right: 30px;
+  margin-right: 100px;
 }
 .container form .form-row{
   display: flex;
@@ -603,19 +614,7 @@ label{
 .submit-btn .input-data:hover .inner{
   left: 0;
 }
-.submit-btn .input-data input{
-  font-family: 'Rubik', sans-serif;
-  background: none;
-  border: none;
-  color: #000000;
-  font-size: 17px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  cursor: pointer;
-  position: relative;
-  z-index: 2;
-}
+
 
 .form-class{
   display: flex;
@@ -623,6 +622,28 @@ label{
   flex-direction: column;
 }
 
+.input-data-button{
+  margin-left: 20px;
+}
+
+.send-button{
+  font-family: 'Rubik', sans-serif;
+  background-color: #FF9142;
+  border: none;
+  border-radius: 100px;
+  color: #000000;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 10px 30px 10px 30px;
+  letter-spacing: 1px;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+.send-button:hover{
+  color: #FF9142;
+  background-color: #000000;
+  cursor: pointer;
+}
 
 
 
