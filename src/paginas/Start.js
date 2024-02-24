@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Start = () => {
   const [text, setText] = useState('');
-  const fullText = 'Website design and development for your brand'; // Replace with your desired text
+  const fullText = 'Welcome to my portfolio. Let me present myself!'; // Replace with your desired text
   const [showButton, setShowButton] = useState(false);
 
   useEffect(() => {

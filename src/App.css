@@ -502,7 +502,7 @@ button{
   display: flex;
   padding: 25px 10px;
   justify-content: space-between;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .container .text{
@@ -644,6 +644,16 @@ label{
   background-color: #000000;
   cursor: pointer;
 }
+
+.container .text{
+  margin-right: 40px;
+}
+
+.start{
+  text-align: center;
+  justify-content: center;
+}
+
 
 
 
