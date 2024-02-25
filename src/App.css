@@ -20,6 +20,8 @@ canvas {
 }
 
 .header {
+    position: relative;
+    z-index: 1;
     color: #fff;
     text-align: center;
     display: flex;
@@ -806,6 +808,11 @@ label{
     .image{
         display: none;
     }
+
+    .button-container{
+        margin-bottom: 50px;
+    }
+
     .content{
         width: 100%;
         text-align: center;
@@ -844,7 +851,7 @@ label{
     }
 
     canvas{
-        z-index: -2;
+        z-index: -1;
         top: 0;
         left: 0;
         width: 100%;

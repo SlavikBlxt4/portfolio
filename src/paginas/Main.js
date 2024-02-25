@@ -48,9 +48,9 @@ function Main() {
       <div className="flex-container-main">
         <div className="content">
           <h2>About me</h2>
-          <p className="pc-version">I am a student in a Higher Degree in Multiplatform Application Development at the San Valero Center. My passion for knowing how systems work inside has led me to develop a certain curiosity in the world of programming, and above all, in cybersecurity. However, I also enjoy programming applications or web pages, among other things. Above all, I love challenges, I feel the need to improve a little every day in every way, including the knowledge and learning of all technologies. In short, my goal is to be better than yesterday.</p>
+          <p className="pc-version">I am Viacheslav Iftodii, and I'm a student in a Higher Degree in Multiplatform Application Development at the San Valero School. My passion for knowing how systems work inside has led me to develop a certain curiosity in the world of programming, and above all, in cybersecurity. However, I also enjoy programming applications or web pages, among other things. Above all, I love challenges, I feel the need to improve a little every day in every way, including the knowledge and learning of all technologies. In short, my goal is to be better than yesterday.</p>
           <p className="mobile-version">
-          As a student at San Valero Center, I'm passionate about understanding system functionality, programming, and cybersecurity. I love challenges and aim for continuous improvement in all aspects of technology, striving to be better each day.
+          My name is Viacheslav Iftodii. As a student at San Valero Center, I'm passionate about understanding system functionality, programming, and cybersecurity. I love challenges and aim for continuous improvement in all aspects of technology, striving to be better each day.
           </p>
           <div className="button-container">
           <Link to="/aboutme"><button className="aboutme-button">Find out more about me</button></Link>
@@ -58,7 +58,8 @@ function Main() {
           </div>
         </div>
         <div className="image">
-          <img src={FotoPerfil}/>
+          <img src={FotoPerfil}/> 
+          
         </div>
       </div>
       <div className="skills">
