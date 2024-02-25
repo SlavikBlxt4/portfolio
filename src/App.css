@@ -7,11 +7,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(./img/background.PNG);
+    background-color: #000;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
+
+canvas {
+  position: fixed;
+  width: inherit;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.5;
+}
+
 .header {
     color: #fff;
     text-align: center;
@@ -37,6 +44,7 @@ body {
 }
 
 .pc-version {
+    z-index: 0;
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     line-height: 1.5;
@@ -281,8 +289,13 @@ li{
     padding: 30px;
     margin-top: 90px;
     display: inline-block;
-    max-width: 100%;    
+    max-width: 100%;
+    
 }
+
+
+
+
 
 .start h1{
     font-family: 'Syne', sans-serif;
@@ -326,6 +339,8 @@ button{
 }
 
 .discover-button.show {
+  position: relative;
+  z-index: 1;
   opacity: 1;
   transition: opacity 1s ease, background 0.5s ease, color 0.5s ease;/* Smooth transition effect */
 }
@@ -411,7 +426,10 @@ button{
     display: flex;
 }
 
-
+.button-container button{
+    position: relative;
+    z-index: 2;
+}
 
 
 .page-enter {
@@ -451,6 +469,7 @@ button{
   } */
 
   .image{
+    z-index: 1;
     margin-top: 70px;
     margin-right: 150px;
   }
@@ -521,7 +540,9 @@ input:-webkit-autofill{
   -webkit-background-clip: text;
 }
 
-
+form{
+  z-index: 1;
+}
 
 .container form{
   padding: 30px 0 0 0;
@@ -821,8 +842,18 @@ label{
         width: 300px;
         margin-top: 160px;
     }
+
+    canvas{
+        z-index: -2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        opacity: 0.5;
+    }
+  }
     
-}
 
 @media screen and (max-width: 1200px) {
     .button-container{
