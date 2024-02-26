@@ -5,8 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { I18nextProvider } from "react-i18next"
 import i18next from "i18next"
-import header_es from "./translations/es/global.json"
-import header_en from "./translations/en/global.json"
+import global_es from "./translations/es/global.json"
+import global_en from "./translations/en/global.json"
 
 i18next.init({
   interpolation: {
@@ -15,10 +15,10 @@ i18next.init({
   lng: 'es',
   resources: {
     es: {
-      header: header_es,
+      global: global_es,
     },
     en: {
-      header: header_en,
+      global: global_en,
     },
   }
 })
