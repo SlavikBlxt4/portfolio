@@ -41,5 +41,9 @@
             "message": "Write your message",
             "send": "Send"
         }
+    },
+
+    "footer":{
+        "message": "Get In Touch With Me"
     }
 }   

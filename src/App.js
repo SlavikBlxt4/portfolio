@@ -8,8 +8,8 @@ import Contact from './paginas/Contact';
 import Main from './paginas/Main';
 import ProjectDetail from './paginas/ProjectDetail';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import './App.css';
-import StarField from './componentes/Starfield';
+import './AppLight.css';
+import StarField from './componentes/StarfieldLight';
 
 
 

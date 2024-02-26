@@ -100,7 +100,9 @@ const Contact = () => {
             <div className='contact-title-class'>
               <h1>{t('contact.contactme')}</h1>
               <p>{t('contact.submessage')}</p>
-                <div style={{ height: '0.2px', backgroundColor: 'white', margin: '20px 0' }}></div>
+            <div className='line-separator'>
+              <hr></hr>
+            </div>
             </div>
             <div className='form-class'>
                 <ContactForm />

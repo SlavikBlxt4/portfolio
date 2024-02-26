@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import MenuDesplegable from '../img/menu-desplegable.png';
 import { useTranslation } from "react-i18next";
 import ToggleSwitch from "./toggleSwitch";
 
@@ -20,9 +19,6 @@ const Header = () => {
         <li><Link to="/projects">{t("header.myworks")}</Link></li>
         <li><Link to="/contact" id="contact-link">{t("header.contact")}</Link></li>
           </ul>
-          <div className="menu-button">
-            <button><img src={MenuDesplegable} alt='menu'></img></button>
-          </div>
         </div>        
       </div>
     )
