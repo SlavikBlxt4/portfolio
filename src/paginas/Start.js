@@ -15,6 +15,7 @@ const Start = () => {
       if (charIndex <= fullText.length) {
         setText(fullText.substring(0, charIndex));
         charIndex++;
+        setShowButton(false); // Hide the button while typewriting
       } else {
         clearInterval(interval);
         setShowButton(true); // Show the button after typewriting effect
