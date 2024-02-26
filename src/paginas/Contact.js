@@ -1,5 +1,4 @@
 import React from 'react';
-import { useForm, ValidationError } from '@formspree/react';
 import { useState } from 'react';
 
 function ContactForm() {

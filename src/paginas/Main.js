@@ -58,7 +58,7 @@ function Main() {
           </div>
         </div>
         <div className="image">
-          <img src={FotoPerfil}/> 
+          <img src={FotoPerfil} alt=" "/> 
           
         </div>
       </div>
@@ -66,47 +66,47 @@ function Main() {
         <h2>My Tech Stack</h2>
         <div className="code-languages">
           <ul className="code-title">
-            <li><div className="title-logo"><p>Java</p><img src={Java} className="code-logo"></img></div>
+            <li><div className="title-logo"><p>Java</p><img src={Java} className="code-logo" alt=" "></img></div>
               <ul className="code-desc">
                 <li>Leveraging Java's versatility, I specialize in crafting robust server-side solutions that ensure optimal functionality and user experiences.</li>
               </ul>
             </li>
-            <li><div className="title-logo"><p>HTML</p><img src={HTML} className="code-logo"></img></div>
+            <li><div className="title-logo"><p>HTML</p><img src={HTML} className="code-logo" alt=" "></img></div>
             <ul className="code-desc">
                 <li>As a Full-Stack developer, I am able to create web structures that ensure your website is well structured and easily readable.</li>
               </ul>
             </li>
-            <li><div className="title-logo"><p>CSS</p><img src={CSS} className="code-logo"></img></div>
+            <li><div className="title-logo"><p>CSS</p><img src={CSS} className="code-logo" alt=" "></img></div>
             <ul className="code-desc">
                 <li>I specialize in creating beautiful, intuitive styles that make your website or application stand out.</li>
               </ul>
             </li>
-            <li><div className="title-logo"><p>React.js</p><img src={ReactLogo} className="code-logo"></img></div>
+            <li><div className="title-logo"><p>React.js</p><img src={ReactLogo} className="code-logo" alt=" "></img></div>
             <ul className="code-desc">
                 <li>With my expertise in React.js, I create dynamic and responsive user interfaces that improve user engagement and provide seamless experiences across all platforms.</li>
               </ul>
             </li>
-            <li><div className="title-logo"><p>TypeScript</p><img src={TypeScript} className="code-logo"></img></div>
+            <li><div className="title-logo"><p>TypeScript</p><img src={TypeScript} className="code-logo" alt=" "></img></div>
             <ul className="code-desc">
                 <li>As an experienced back-end developer, I provide web development services that encompass architecting and implementing robust server-side solutions.</li>
               </ul>
             </li>
-            <li><div className="title-logo"><p>JavaScript</p><img src={JavaScript} className="code-logo"></img></div>
+            <li><div className="title-logo"><p>JavaScript</p><img src={JavaScript} className="code-logo" alt=" "></img></div>
             <ul className="code-desc">
                 <li>As a skilled back-end developer, my proficiency extends to JavaScript, enabling me to create dynamic and responsive web applications.</li>
               </ul>
             </li>
-            <li><div className="title-logo"><p>Bash</p><img src={Bash} className="code-logo"></img></div>
+            <li><div className="title-logo"><p>Bash</p><img src={Bash} className="code-logo" alt=" "></img></div>
             <ul className="code-desc">
                 <li>My proficiency in Bash extends to creating efficient scripts for deployment, system maintenance, and task automation.</li>
               </ul>
             </li>
-            <li><div className="title-logo"><p>Git</p><img src={Git} className="code-logo"></img></div>
+            <li><div className="title-logo"><p>Git</p><img src={Git} className="code-logo" alt=" "></img></div>
             <ul className="code-desc">
                 <li>My command of Git allows me to efficiently manage and track changes across the codebase, ensuring smooth collaboration and version control in development projects.</li>
               </ul>
             </li>
-            <li><div className="title-logo"><p>AWS</p><img src={AWS} className="code-logo"></img></div>
+            <li><div className="title-logo"><p>AWS</p><img src={AWS} className="code-logo" alt=" "></img></div>
             <ul className="code-desc">
                 <li>I adeptly navigate the AWS ecosystem to optimize web application deployment and scalability, architecting robust and secure cloud solutions.</li>
               </ul>

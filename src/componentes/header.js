@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import ToggleSwitch from "./toggleSwitch";
 
 const Header = () => {
-  const { t, i18n } = useTranslation("header");
+  const { t, i18n } = useTranslation("global");
 
     return(
       <div className="header">
