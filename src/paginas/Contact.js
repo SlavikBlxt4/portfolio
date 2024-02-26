@@ -1,7 +1,12 @@
 import React from 'react';
 import { useState } from 'react';
+import { useTranslation } from "react-i18next";
+
+
+
 
 function ContactForm() {
+  const { t, i18n } = useTranslation("global");
     const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -45,25 +50,25 @@ function ContactForm() {
 
   return (
     <div className="container">
-      <div className="text">Get In Touch With Me</div>
+    <div className="text">{t('contact.title')}</div>
       <form onSubmit={handleSubmit}>
         <div className="form-row">
           <div className="input-data">
             <input type="text" name="firstName" value={formData.firstName} onChange={handleChange} required />
             <div className="underline"></div>
-            <label htmlFor="firstName">First Name</label>
+            <label htmlFor="firstName">{t('contact.form.name')}</label>
           </div>
           <div className="input-data">
             <input type="text" name="lastName" value={formData.lastName} onChange={handleChange} required />
             <div className="underline"></div>
-            <label htmlFor="lastName">Last Name</label>
+            <label htmlFor="lastName">{t('contact.form.lastname')}</label>
           </div>
         </div>
         <div className="form-row">
           <div className="input-data">
             <input type="text" name="emailAddress" value={formData.emailAddress} onChange={handleChange} required />
             <div className="underline"></div>
-            <label htmlFor="emailAddress">Email Address</label>
+            <label htmlFor="emailAddress">{t('contact.form.email')}</label>
           </div>
         </div>
         <div className="form-row">
@@ -71,13 +76,13 @@ function ContactForm() {
             <textarea rows="8" cols="80" name="message" value={formData.message} onChange={handleChange} required></textarea>
             <br />
             <div className="underline"></div>
-            <label htmlFor="message">Write your message</label>
+          <label htmlFor="message">{t('contact.form.message')}</label>
           </div>
         </div>
         <div className="form-row submit-btn">
           <div className="input-data-button">
             <div className="inner"></div>
-            <input type="submit" className="send-button" value="Send" />
+            <input type="submit" className="send-button" value={t('contact.form.send')} />
           </div>
         </div>
       </form>
@@ -89,11 +94,12 @@ function ContactForm() {
 
 
 const Contact = () => {
+  const { t, i18n } = useTranslation("global");
     return (
         <div className='content-contact'>
             <div className='contact-title-class'>
-                <h1>Contact Me</h1>
-                <p>For Any Project Knock Me</p>
+              <h1>{t('contact.contactme')}</h1>
+              <p>{t('contact.submessage')}</p>
                 <div style={{ height: '0.2px', backgroundColor: 'white', margin: '20px 0' }}></div>
             </div>
             <div className='form-class'>

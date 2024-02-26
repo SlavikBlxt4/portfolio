@@ -31,7 +31,7 @@ const Start = () => {
         <span className="typing-cursor"></span> {/* Apply the 'typing-cursor' class to the span */}
       </h1>
       <Link to="/home">
-        <button className={showButton ? "discover-button show" : "discover-button"}>Discover more →</button>
+        <button className={showButton ? "discover-button show" : "discover-button"}>{t("start.button")}</button>
       </Link>
     </div>
   );

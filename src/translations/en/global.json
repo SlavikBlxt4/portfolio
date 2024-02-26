@@ -7,6 +7,39 @@
     },
 
     "start":{
-        "message": "Welcome to my portfolio! Let me present myself"
+        "message": "Welcome to my portfolio! Let me present myself",
+        "button": "Discover more →"
+    },
+
+    "home":{
+        "aboutme": "About me",
+        "description-pc": "I am Viacheslav Iftodii, and I'm a student in a Higher Degree in Multiplatform Application Development at the San Valero School. My passion for knowing how systems work inside has led me to develop a certain curiosity in the world of programming, and above all, in cybersecurity. However, I also enjoy programming applications or web pages, among other things. Above all, I love challenges, I feel the need to improve a little every day in every way, including the knowledge and learning of all technologies. In short, my goal is to be better than yesterday.",
+        "description-mobile": "My name is Viacheslav Iftodii. As a student at San Valero Center, I'm passionate about understanding system functionality, programming, and cybersecurity. I love challenges and aim for continuous improvement in all aspects of technology, striving to be better each day.",
+        "aboutme-button": "Find out more about me",
+        "cv-button": "Download my CV",
+        "mytechstack": "My Tech Stack",
+        "java-desc": "Leveraging Java's versatility, I specialize in crafting robust server-side solutions that ensure optimal functionality and user experiences.",
+        "html-desc": "As a Full-Stack developer, I am able to create web structures that ensure your website is well structured and easily readable.",
+        "css-desc": "I specialize in creating beautiful, intuitive styles that make your website or application stand out.",
+        "react-desc": "I am well versed in the React framework, and I have experience with state management, routing, and server-side rendering.",
+        "typescript-desc": "As an experienced back-end developer, I provide web development services that encompass architecting and implementing robust server-side solutions.",
+        "javascript-desc": "As a skilled back-end developer, my proficiency extends to JavaScript, enabling me to create dynamic and responsive web applications.",
+        "bash-desc": "My proficiency in Bash extends to creating efficient scripts for deployment, system maintenance, and task automation.",
+        "git-desc": "My command of Git allows me to efficiently manage and track changes across the codebase, ensuring smooth collaboration and version control in development projects.",
+        "aws-desc": "I adeptly navigate the AWS ecosystem to optimize web application deployment and scalability, architecting robust and secure cloud solutions."
+    },
+
+    "contact":{
+        "contactme": "Contact Me",
+        "submessage": "For Any Project Knock Me",
+        "title": "Get in Touch With Me",
+
+        "form":{
+            "name": "First Name",
+            "lastname": "Last Name",
+            "email": "Email Adress",
+            "message": "Write your message",
+            "send": "Send"
+        }
     }
 }   

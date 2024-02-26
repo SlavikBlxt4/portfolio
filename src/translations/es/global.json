@@ -7,6 +7,41 @@
     },
 
     "start":{
-        "message": "¡Bienvenido a mi portafolio! Permíteme presentarme"
+        "message": "¡Bienvenido a mi portafolio! Permíteme presentarme",
+        "button": "Descubrir más →"
+    },
+
+    "home":{
+        "aboutme": "Sobre Mí",
+        "description-pc": "Soy Viacheslav Iftodii, y soy estudiante del Grado Superior en Desarrollo de Aplicaciones Multiplataforma en el Colegio San Valero. Mi pasión por saber cómo funcionan los sistemas por dentro me ha llevado a desarrollar cierta curiosidad por el mundo de la programación, y sobre todo, por la ciberseguridad. Sin embargo, también disfruto programando aplicaciones o páginas web, entre otras cosas. Sobre todo me encantan los retos, siento la necesidad de mejorar un poco cada día en todos los sentidos, incluido el conocimiento y aprendizaje de todas las tecnologías. En definitiva, mi objetivo es ser mejor que ayer.",
+        "description-mobile": "Mi nombre es Viacheslav Iftodii. Como estudiante del Centro San Valero, me apasiona comprender la funcionalidad, la programación y la ciberseguridad de los sistemas. Me encantan los desafíos y busco la mejora continua en todos los aspectos de la tecnología, esforzándome por ser mejor cada día.",
+        "aboutme-button": "Conóceme más a fondo",
+        "cv-button": "Descargar CV",
+        "mytechstack": "Mi Tech Stack",
+        "java-desc": "Aprovechando la versatilidad de Java, me especializo en la creación de soluciones sólidas del lado del servidor que garantizan una funcionalidad y una experiencia de usuario óptimas.",
+        "html-desc": "Como desarrollador Full-Stack, puedo crear estructuras web que garanticen que su sitio web esté bien estructurado y sea fácilmente legible.",
+        "css-desc": "Me especializo en crear estilos hermosos e intuitivos que hacen que su sitio web o aplicación se destaque.",
+        "react-desc": "Conozco bien el mundo de React y tengo experiencia con la gestión del estado, el enrutamiento y la representación del lado del servidor.",
+        "typescript-desc": "Como desarrollador back-end experimentado, proporciono servicios de desarrollo web que abarcan la arquitectura y la implementación de soluciones sólidas del lado del servidor.",
+        "javascript-desc": "Como desarrollador back-end experto, mi dominio se extiende a JavaScript, lo que me permite crear aplicaciones web dinámicas y responsivas.",
+        "bash-desc": "Mi dominio de Bash se extiende a la creación de scripts eficientes para la implementación, el mantenimiento del sistema y la automatización de tareas.",
+        "git-desc": "Mi dominio de Git me permite gestionar y realizar un seguimiento eficiente de los cambios en todo el código base, lo que garantiza una colaboración fluida y un control de versiones en proyectos de desarrollo.",
+        "aws-desc": "Navego hábilmente por el ecosistema de AWS para optimizar la implementación y la escalabilidad de aplicaciones web, diseñando soluciones en la nube sólidas y seguras."
+    
+    },
+
+    "contact":{
+        "contactme": "Contáctame",
+        "submessage": "Estoy abierto a cualquier proyecto",
+        "title": "Escríbeme un mensaje",
+
+        "form":{
+            "name": "Nombre",
+            "lastname": "Apellidos",
+            "email": "Email",
+            "message": "Escribe tu mensaje",
+            "send": "Enviar"
+        }
     }
+
 }   

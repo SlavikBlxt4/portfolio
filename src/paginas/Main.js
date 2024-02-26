@@ -11,9 +11,11 @@ import JavaScript from "../skills-logos/javascript.png"
 import ReactLogo from "../skills-logos/react.png"
 import TypeScript from "../skills-logos/typescript.png"
 import { Link } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
 
 
 function Main() {
+  const { t, i18n } = useTranslation("global");
   useEffect(() => {
     const titleElements = document.querySelectorAll('.code-title');
     const observers = [];
@@ -47,14 +49,14 @@ function Main() {
       <div>
       <div className="flex-container-main">
         <div className="content">
-          <h2>About me</h2>
-          <p className="pc-version">I am Viacheslav Iftodii, and I'm a student in a Higher Degree in Multiplatform Application Development at the San Valero School. My passion for knowing how systems work inside has led me to develop a certain curiosity in the world of programming, and above all, in cybersecurity. However, I also enjoy programming applications or web pages, among other things. Above all, I love challenges, I feel the need to improve a little every day in every way, including the knowledge and learning of all technologies. In short, my goal is to be better than yesterday.</p>
+          <h2>{t("home.aboutme")}</h2>
+          <p className="pc-version">{t("home.description-pc")}</p>
           <p className="mobile-version">
-          My name is Viacheslav Iftodii. As a student at San Valero Center, I'm passionate about understanding system functionality, programming, and cybersecurity. I love challenges and aim for continuous improvement in all aspects of technology, striving to be better each day.
+            {t("home.description-mobile")}
           </p>
           <div className="button-container">
-          <Link to="/aboutme"><button className="aboutme-button">Find out more about me</button></Link>
-            <a href={Curriculum} download="cv.pdf"  target="_blank" rel="noreferrer"><button className="cv-button">Download my CV</button></a>
+            <Link to="/aboutme"><button className="aboutme-button">{t("home.aboutme-button")}</button></Link>
+            <a href={Curriculum} download="cv.pdf"  target="_blank" rel="noreferrer"><button className="cv-button">{t("home.cv-button")}</button></a>
           </div>
         </div>
         <div className="image">
@@ -63,52 +65,52 @@ function Main() {
         </div>
       </div>
       <div className="skills">
-        <h2>My Tech Stack</h2>
+    <h2>{t("home.mytechstack")}</h2>
         <div className="code-languages">
           <ul className="code-title">
             <li><div className="title-logo"><p>Java</p><img src={Java} className="code-logo" alt=" "></img></div>
               <ul className="code-desc">
-                <li>Leveraging Java's versatility, I specialize in crafting robust server-side solutions that ensure optimal functionality and user experiences.</li>
+            <li>{t("home.java-desc")}</li>
               </ul>
             </li>
             <li><div className="title-logo"><p>HTML</p><img src={HTML} className="code-logo" alt=" "></img></div>
             <ul className="code-desc">
-                <li>As a Full-Stack developer, I am able to create web structures that ensure your website is well structured and easily readable.</li>
+                <li>{t("home.html-desc")}</li>
               </ul>
             </li>
             <li><div className="title-logo"><p>CSS</p><img src={CSS} className="code-logo" alt=" "></img></div>
             <ul className="code-desc">
-                <li>I specialize in creating beautiful, intuitive styles that make your website or application stand out.</li>
+                <li>{t("home.css-desc")}</li>
               </ul>
             </li>
             <li><div className="title-logo"><p>React.js</p><img src={ReactLogo} className="code-logo" alt=" "></img></div>
             <ul className="code-desc">
-                <li>With my expertise in React.js, I create dynamic and responsive user interfaces that improve user engagement and provide seamless experiences across all platforms.</li>
+                <li>{t("home.react-desc")}</li>
               </ul>
             </li>
             <li><div className="title-logo"><p>TypeScript</p><img src={TypeScript} className="code-logo" alt=" "></img></div>
             <ul className="code-desc">
-                <li>As an experienced back-end developer, I provide web development services that encompass architecting and implementing robust server-side solutions.</li>
+                <li>{t("home.typescript-desc")}</li>
               </ul>
             </li>
             <li><div className="title-logo"><p>JavaScript</p><img src={JavaScript} className="code-logo" alt=" "></img></div>
             <ul className="code-desc">
-                <li>As a skilled back-end developer, my proficiency extends to JavaScript, enabling me to create dynamic and responsive web applications.</li>
+                <li>{t("home.javascript-desc")}.</li>
               </ul>
             </li>
             <li><div className="title-logo"><p>Bash</p><img src={Bash} className="code-logo" alt=" "></img></div>
             <ul className="code-desc">
-                <li>My proficiency in Bash extends to creating efficient scripts for deployment, system maintenance, and task automation.</li>
+                <li>{t("home.bash-desc")}</li>
               </ul>
             </li>
             <li><div className="title-logo"><p>Git</p><img src={Git} className="code-logo" alt=" "></img></div>
             <ul className="code-desc">
-                <li>My command of Git allows me to efficiently manage and track changes across the codebase, ensuring smooth collaboration and version control in development projects.</li>
+                <li>{t("home.git-desc")}</li>
               </ul>
             </li>
             <li><div className="title-logo"><p>AWS</p><img src={AWS} className="code-logo" alt=" "></img></div>
             <ul className="code-desc">
-                <li>I adeptly navigate the AWS ecosystem to optimize web application deployment and scalability, architecting robust and secure cloud solutions.</li>
+                <li>{t("home.aws-desc")}</li>
               </ul>
             </li>
           </ul>
