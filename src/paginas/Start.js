@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import '../App.css'; // Import the CSS file
 import { Link } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
 
 const Start = () => {
+  const { t, i18n } = useTranslation("global");
   const [text, setText] = useState('');
-  const fullText = 'Welcome to my portfolio. Let me present myself!'; // Replace with your desired text
+  const fullText = t("start.message"); // Replace with your desired text
   const [showButton, setShowButton] = useState(false);
 
   useEffect(() => {
@@ -20,6 +22,7 @@ const Start = () => {
     }, 75); // Adjust the interval for typing speed
     return () => clearInterval(interval);
   }, [fullText]);
+
 
   return (
     <div className="start"> {/* Apply the 'start' class to the div */}

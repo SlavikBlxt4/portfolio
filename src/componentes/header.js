@@ -16,9 +16,9 @@ const Header = () => {
         <div className="menu">
           <ul className="menu-list">
             <li><Link to="/home">{t("header.home")}</Link></li>
-            <li><Link to="/aboutme">ABOUT ME</Link></li>
-            <li><Link to="/projects">MY WORKS</Link></li>
-            <li><Link to="/contact" id="contact-link">CONTACT</Link></li>
+        <li><Link to="/aboutme">{t("header.aboutme")}</Link></li>
+        <li><Link to="/projects">{t("header.myworks")}</Link></li>
+        <li><Link to="/contact" id="contact-link">{t("header.contact")}</Link></li>
           </ul>
           <div className="menu-button">
             <button><img src={MenuDesplegable} alt='menu'></img></button>

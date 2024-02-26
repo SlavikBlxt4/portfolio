@@ -4,5 +4,9 @@
         "aboutme": "SOBRE MÍ",
         "myworks": "MIS PROYECTOS",
         "contact": "CONTACTO"
+    },
+
+    "start":{
+        "message": "¡Bienvenido a mi portafolio! Permíteme presentarme"
     }
 }   

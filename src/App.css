@@ -16,7 +16,7 @@ canvas {
   width: inherit;
   height: 100%;
   z-index: 0;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .header {
@@ -48,7 +48,8 @@ canvas {
 }
 
 .pc-version {
-    z-index: 0;
+    position: relative;
+    z-index: -1;
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     line-height: 1.5;

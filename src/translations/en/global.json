@@ -4,5 +4,9 @@
         "aboutme": "ABOUT ME",
         "myworks": "MY WORKS",
         "contact": "CONTACT"
+    },
+
+    "start":{
+        "message": "Welcome to my portfolio! Let me present myself"
     }
 }   
