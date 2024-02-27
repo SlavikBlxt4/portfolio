@@ -19,7 +19,7 @@ export default function ProjectDetail() {
                 <hr/>
             </div>
             <div className="project-portfolio">
-                <img src={portfolioImage} alt="project"/>
+            <a href="https://github.com/SlavikBlxt4/portfolio" target="_blank" rel="noopener noreferrer"><img src={portfolioImage} alt="project"/></a>
                 <div className="project-portfolio-text">
                     <h1>{t("projectdetail.title-project-portfolio")}</h1>
                     <div className="description-portfolio">
@@ -64,7 +64,7 @@ export default function ProjectDetail() {
                         <hr/>
                     </div>
                 </div>
-                <img src={horchImage} alt="project"/>
+            <a href="https://github.com/SlavikBlxt4/horchproject" target="_blank" rel="noopener noreferrer"><img src={horchImage} alt="project"/></a>
                 <div className="project-portfolio-text">
                     <h1>Horch Motorsport</h1>
                     <div className="description-portfolio">
