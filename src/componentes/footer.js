@@ -2,12 +2,14 @@ import React from 'react';
 import linkedin from '../img/linkedin.png';
 import github from '../img/github.png';
 import whatsapp from '../img/whatsapp.png';
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+    const { t, i18n } = useTranslation("global");
     return(
       <div className="footer">
         <div className="message">
-            <p>Get in Touch With Me</p>
+            <p>{t("contact.title")}</p>
         </div>
 
         <div className="flex-container">

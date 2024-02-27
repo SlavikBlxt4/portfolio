@@ -14,6 +14,7 @@ function ContactForm() {
     message: ''
   });
 
+  const [isSubmitted, setIsSubmitted] = useState(false);
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prevData => ({
@@ -37,6 +38,7 @@ function ContactForm() {
       if (response.ok) {
         // La solicitud fue exitosa
         console.log('Formulario enviado correctamente');
+        setIsSubmitted(true);
         // Puedes realizar acciones adicionales después de enviar el formulario
         // Por ejemplo, mostrar un mensaje de éxito, redireccionar al usuario, etc.
       } else {
@@ -51,6 +53,9 @@ function ContactForm() {
   return (
     <div className="container">
     <div className="text">{t('contact.title')}</div>
+    {isSubmitted ? (
+        <div className='enviado'>{t("contact.form.sent-message")}</div>
+      ) : (
       <form onSubmit={handleSubmit}>
         <div className="form-row">
           <div className="input-data">
@@ -86,6 +91,7 @@ function ContactForm() {
           </div>
         </div>
       </form>
+    )}
     </div>
   );
 }

@@ -15,8 +15,9 @@
         "aboutme": "Sobre Mí",
         "description-pc": "Soy Viacheslav Iftodii, y soy estudiante del Grado Superior en Desarrollo de Aplicaciones Multiplataforma en el Colegio San Valero. Mi pasión por saber cómo funcionan los sistemas por dentro me ha llevado a desarrollar cierta curiosidad por el mundo de la programación, y sobre todo, por la ciberseguridad. Sin embargo, también disfruto programando aplicaciones o páginas web, entre otras cosas. Sobre todo me encantan los retos, siento la necesidad de mejorar un poco cada día en todos los sentidos, incluido el conocimiento y aprendizaje de todas las tecnologías. En definitiva, mi objetivo es ser mejor que ayer.",
         "description-mobile": "Mi nombre es Viacheslav Iftodii. Como estudiante del Centro San Valero, me apasiona comprender la funcionalidad, la programación y la ciberseguridad de los sistemas. Me encantan los desafíos y busco la mejora continua en todos los aspectos de la tecnología, esforzándome por ser mejor cada día.",
-        "aboutme-button": "Conóceme más a fondo",
+        "aboutme-button": "Contáctame",
         "cv-button": "Descargar CV",
+        "projects-button": "Proyectos",
         "mytechstack": "Mi Tech Stack",
         "java-desc": "Aprovechando la versatilidad de Java, me especializo en la creación de soluciones sólidas del lado del servidor que garantizan una funcionalidad y una experiencia de usuario óptimas.",
         "html-desc": "Como desarrollador Full-Stack, puedo crear estructuras web que garanticen que su sitio web esté bien estructurado y sea fácilmente legible.",
@@ -40,8 +41,61 @@
             "lastname": "Apellidos",
             "email": "Email",
             "message": "Escribe tu mensaje",
-            "send": "Enviar"
+            "send": "Enviar",
+            "sent-message": "Enviado!"
         }
+    },
+
+    "projectdetail":{
+        "Title": "Mis proyectos",
+        "submessage": "Detalles sobre los proyectos",
+        "title-project-portfolio": "Portafolio",
+        "description-portfolio": "Este es un sitio web de portafolio que muestra mis proyectos, habilidades y experiencias. El sitio web está construido utilizando React, CSS y JavaScript.",
+        "description-horch": "Este es el sitio web de una revista de motores que muestra habilidades usando solo CSS y HTML, como mi primer proyecto web",
+        "common-subtitles":{
+            "features": "Características",
+            "process": "Proceso",
+            "conclusions": "Conclusiones y aprendizaje"
+    },
+        "tech-stack-portfolio":{
+            "react": "React",
+            "css": "CSS",
+            "javascript": "JavaScript"
+        },
+
+
+
+        "react-features-portfolio":{
+        "1": "<strong>Componentes reutilizables:</strong> React permite crear componentes de interfaz de usuario reutilizables que se pueden utilizar en toda la aplicación.",
+        "2": "<strong>DOM Virtual:</strong> El DOM virtual de React mejora el rendimiento al minimizar la manipulación directa del DOM del navegador.",
+        "3": "<strong>Flujo de datos unidireccional:</strong> El flujo de datos unidireccional de React hace que sea más fácil razonar sobre el estado de la aplicación y cómo cambia con el tiempo.",
+        "4": "<strong>Gran comunidad y ecosistema:</strong> React tiene una comunidad grande y activa, con muchos recursos y bibliotecas disponibles.",
+        "5": "<strong>Flexibilidad:</strong> React es una biblioteca, no un framework, que brinda a los desarrolladores flexibilidad para elegir las mejores herramientas para las necesidades específicas de sus proyectos."
+        },
+        "features-portfolio":{
+            "1": "Diseño responsivo que se ajusta a diferentes tamaños de pantalla",
+            "2": "Animaciones personalizadas para una experiencia de usuario visualmente atractiva",
+            "3": "Sección de proyectos con imágenes, descripciones y enlaces a proyectos",
+            "4": "Sección de habilidades que destaca mi competencia en diversas tecnologías.",
+            "5": "Sección de contacto con formulario y enlaces a mis perfiles de redes sociales"
+            },
+
+
+
+        "react-desc": "Es la primera vez que presento React.js en un proyecto y estas son mis razones para introducirlo:",
+
+        "process-portfolio": "A lo largo del proceso de creación de este portafolio, aprendí la importancia de planificar y organizar mi código antes de sumergirme en el desarrollo. También aprendí a utilizar eficazmente animaciones y transiciones CSS para crear una experiencia de usuario dinámica. Además, adquirí experiencia trabajando con fuentes y colores personalizados para crear un diseño único y visualmente atractivo. <br></br>En general, este proyecto fue una valiosa experiencia de aprendizaje y una gran oportunidad para mostrar mis habilidades y experiencias como desarrollador front-end.",
+        "conclusions-portfolio": "",    
+
+
+        "features-horch":{
+            "1": "Diseño responsivo que se ajusta a diferentes tamaños de pantalla. Era la primera vez que probaba un diseño responsivo.",
+            "2": "Animaciones CSS al pasar el mouse, como transform",
+            "3": "Sección de noticias con imágenes y fuentes personalizadas."
+            },
+        "process-horch": "Este proyecto fue una gran oportunidad para mí de practicar mis habilidades de desarrollo front-end, particularmente en animaciones. Luché mucho con todo lo relacionado con CSS, ya que era la primera vez que lo usaba y entendía, pero aprendí mucho en el proceso. Este proyecto fue definitivamente una gran oportunidad para aprender habilidades front-end para luego aplicarlas y mejorar en mis próximos proyectos, como mi portafolio.",
+        "conclusions-horch": "A lo largo del proceso de creación de este sitio web, aprendí los conceptos básicos de la estructura web y las decoraciones CSS. También aprendí cómo implementar eficazmente el sitio web para que sea visible para todos. Además, intenté utilizar un diseño responsivo y los errores detrás de este diseño han sido mi mayor experiencia de aprendizaje para hacerlos bien en mis próximos sitios web. <br></br>En general, este proyecto fue una gran experiencia de aprendizaje y una gran oportunidad. para iniciarse en el desarrollo de sitios web."
+
     }
 
 }   

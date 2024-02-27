@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import Header from './componentes/header';
 import Footer from './componentes/footer';
 import Start from './paginas/Start';
-import AboutMe from './paginas/AboutMe';
 import Contact from './paginas/Contact';
 import Main from './paginas/Main';
 import ProjectDetail from './paginas/ProjectDetail';
@@ -45,7 +44,6 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Layout><Start setPage={setPage} /></Layout>} />
-        <Route path="/aboutme" element={<Layout><AboutMe setPage={setPage} /></Layout>} />
         <Route path="/contact" element={<Layout><Contact setPage={setPage} /></Layout>} />
         <Route path="/home" element={<Layout><Main setPage={setPage} /></Layout>} />
         <Route path="/projects" element={<Layout><ProjectDetail setPage={setPage} /></Layout>} />

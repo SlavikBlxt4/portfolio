@@ -55,7 +55,8 @@ function Main() {
             {t("home.description-mobile")}
           </p>
           <div className="button-container">
-            <Link to="/aboutme"><button className="aboutme-button">{t("home.aboutme-button")}</button></Link>
+            <Link to="/contact"><button className="aboutme-button">{t("home.aboutme-button")}</button></Link>
+            <Link to="/projects"><button className="projects-button">{t("home.projects-button")}</button></Link>
             <a href={Curriculum} download="cv.pdf"  target="_blank" rel="noreferrer"><button className="cv-button">{t("home.cv-button")}</button></a>
           </div>
         </div>

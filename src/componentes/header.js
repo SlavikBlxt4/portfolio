@@ -16,7 +16,6 @@ const Header = () => {
         <div className="menu">
           <ul className="menu-list">
             <li><Link to="/home">{t("header.home")}</Link></li>
-        <li><Link to="/aboutme">{t("header.aboutme")}</Link></li>
         <li><Link to="/projects">{t("header.myworks")}</Link></li>
         <li><Link to="/contact" id="contact-link">{t("header.contact")}</Link></li>
           </ul>

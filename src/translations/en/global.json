@@ -15,8 +15,9 @@
         "aboutme": "About me",
         "description-pc": "I am Viacheslav Iftodii, and I'm a student in a Higher Degree in Multiplatform Application Development at the San Valero School. My passion for knowing how systems work inside has led me to develop a certain curiosity in the world of programming, and above all, in cybersecurity. However, I also enjoy programming applications or web pages, among other things. Above all, I love challenges, I feel the need to improve a little every day in every way, including the knowledge and learning of all technologies. In short, my goal is to be better than yesterday.",
         "description-mobile": "My name is Viacheslav Iftodii. As a student at San Valero Center, I'm passionate about understanding system functionality, programming, and cybersecurity. I love challenges and aim for continuous improvement in all aspects of technology, striving to be better each day.",
-        "aboutme-button": "Find out more about me",
+        "aboutme-button": "Contact with me", 
         "cv-button": "Download my CV",
+        "projects-button": "Projects",
         "mytechstack": "My Tech Stack",
         "java-desc": "Leveraging Java's versatility, I specialize in crafting robust server-side solutions that ensure optimal functionality and user experiences.",
         "html-desc": "As a Full-Stack developer, I am able to create web structures that ensure your website is well structured and easily readable.",
@@ -39,7 +40,60 @@
             "lastname": "Last Name",
             "email": "Email Adress",
             "message": "Write your message",
-            "send": "Send"
+            "send": "Send",
+            "sent-message": "Sent!"
         }
+    },
+
+    "projectdetail":{
+        "Title": "Project Detail",
+        "submessage": "Details about the projects",
+        "title-project-portfolio": "Portfolio",
+        "description-portfolio": "This is a portfolio website showcasing my projects, skills, and experiences. The website is built using React, CSS, and JavaScript.",
+        "description-horch": "This is motor magazine website showcasing skills using only CSS and HTML, as my first web project of all times.",
+        "common-subtitles":{
+            "features": "Features",
+            "process": "Process",
+            "conclusions": "Conclusions and Learnings"
+    },
+        "tech-stack-portfolio":{
+            "react": "React",
+            "css": "CSS",
+            "javascript": "JavaScript"
+        },
+
+
+
+        "react-features-portfolio":{
+        "1": "<strong>Reusable Components:</strong> React allows for building reusable UI components that can be used throughout the application.",
+        "2": "<strong>Virtual DOM:</strong> React's virtual DOM improves performance by minimizing direct manipulation of the browser's DOM.",
+        "3": "<strong>Unidirectional Data Flow:</strong> React's unidirectional data flow makes it easier to reason about the application's state and how it changes over time.",
+        "4": "<strong>Strong Community and Ecosystem:</strong> React has a large and active community, with plenty of resources and libraries available.",
+        "5": "<strong>Flexibility:</strong> React is a library, not a framework, giving developers flexibility to choose the best tools for their specific project needs."
+        },
+        "features-portfolio":{
+            "1": "Responsive design that adjusts to different screen sizes",
+            "2": "Custom animations for a visually appealing user experience",
+            "3": "Projects section with images, descriptions, and links to live demos",
+            "4": "Skills section highlighting my proficiency in various technologies",
+            "5": "Contact section with a contact form and links to my social media profiles"
+            },
+
+
+
+        "react-desc": "It's my first time introducing React.js on a project, and these are my reasons to start introducing it:",
+
+        "process-portfolio": "Throughout the process of building this portfolio, I learned the importance of planning and organizing my code before diving into development. I also learned how to effectively use CSS animations and transitions to create a dynamic user experience. Additionally, I gained experience working with custom fonts and colors to create a unique and visually appealing design. <br></br>Overall, this project was a valuable learning experience and a great opportunity to showcase my skills and experiences as a front-end developer",
+        "conclusions-portfolio": "",
+
+
+        "features-horch":{
+            "1": "Responsive design that adjusts to different screen sizes. It was my first time trying a responsive design",
+            "2": "CSS hover animations, like transform",
+            "3": "News section with images and custom fonts"
+            },
+        "process-horch": "This project was a great opportunity for me to practice my front-end development skills, particularly in animations. I struggled a lot with everything related to CSS, as it was my first time using and understanding it, but I learned a lot in the process. This project was definitly a great opportunity to learn front-end skills to then be applied and improve in my next projects, as my portfolio.",
+        "conclusions-horch": "Throughout the process of building this website, I learned the basics of web structure and CSS decorations. I also learned how to effectively deploy the website to be visible to everyone. Additionally, I tried to use a responsive design, and the fails behind this design has been my biggest learning experience to make them right on my next websites <br></br>Overall, this project was a huge learning experience and a great opportunity to begin in website development."
+
     }
-}   
+}
