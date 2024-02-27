@@ -42,10 +42,6 @@
             "message": "Escribe tu mensaje",
             "send": "Enviar"
         }
-    },
-
-    "footer":{
-        "message": "Puedes contactarme por aquí:"
     }
 
 }   
